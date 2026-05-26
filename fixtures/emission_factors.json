@@ -1,0 +1,54 @@
+[
+  {
+    "model": "ingestion.emissionfactor",
+    "pk": 1,
+    "fields": {
+      "fuel_key": "diesel",
+      "display_name": "Diesel / Dieselkraftstoff",
+      "co2e_per_litre": 2.6391,
+      "co2e_per_kg": 3.1760,
+      "density_kg_per_litre": 0.8320,
+      "scope": 1,
+      "source": "DEFRA 2023 — Liquid fuels"
+    }
+  },
+  {
+    "model": "ingestion.emissionfactor",
+    "pk": 2,
+    "fields": {
+      "fuel_key": "natural_gas",
+      "display_name": "Erdgas / Natural Gas",
+      "co2e_per_m3": 2.0399,
+      "co2e_per_kg": null,
+      "density_kg_per_litre": null,
+      "scope": 1,
+      "source": "DEFRA 2023 — Gaseous fuels"
+    }
+  },
+  {
+    "model": "ingestion.emissionfactor",
+    "pk": 3,
+    "fields": {
+      "fuel_key": "heating_oil",
+      "display_name": "Heizöl EL / Heating Oil",
+      "co2e_per_litre": 2.5185,
+      "co2e_per_kg": 2.9620,
+      "density_kg_per_litre": 0.8500,
+      "scope": 1,
+      "source": "DEFRA 2023 — Liquid fuels"
+    }
+  },
+  {
+    "model": "ingestion.emissionfactor",
+    "pk": 4,
+    "fields": {
+      "fuel_key": "kerosene",
+      "display_name": "Kerosin / Jet Fuel",
+      "co2e_per_litre": 2.5210,
+      "co2e_per_kg": 3.1500,
+      "density_kg_per_litre": 0.8000,
+      "scope": 1,
+      "source": "DEFRA 2023 — Liquid fuels"
+    }
+  }
+]

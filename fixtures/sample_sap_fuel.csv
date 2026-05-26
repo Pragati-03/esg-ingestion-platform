@@ -1,0 +1,13 @@
+Buchungsdatum,Werk,Materialnummer,Materialbezeichnung,Menge,Einheit,Kostenstelle,Belegtext
+15.01.2024,WERK_MUC,MAT-10023,Dieselkraftstoff,450.5,L,CC-1001,Monatlicher Verbrauch
+2024-01-18,WERK_HAM,MAT-10023,Dieselkraftstoff,320,Liter,CC-2003,Tankfuellung LKW
+20/01/2024,WERK_MUC,MAT-10045,Erdgas,1200,m3,CC-1001,Heizung Produktion
+22.01.2024,WERK_BER,MAT-10023,Diesel,180.75,l,CC-3007,Fahrzeugflotte
+25.01.2024,WERK_HAM,MAT-10067,Heizoel EL,95,KG,CC-2003,Notstromaggregat
+2024-01-28,WERK_MUC,MAT-10045,Erdgas,980.0,m³,CC-1002,Heizung Verwaltung
+30.01.2024,WERK_BER,MAT-10023,Dieselkraftstoff,,,CC-3007,Fehlbuchung
+01.02.2024,WERK_MUC,MAT-10023,Diesel,520.25,L,CC-1001,Monatlicher Verbrauch
+05.02.2024,WERK_HAM,MAT-10088,Flugtreibstoff Kerosin,850,kg,CC-2001,Firmenflugzeug
+2024-02-08,WERK_BER,MAT-10045,Erdgas,2100,m3,CC-3001,Produktionshalle
+10.02.2024,WERK_MUC,MAT-10023,Diesel,99999,L,CC-1001,TESTBUCHUNG BITTE IGNORIEREN
+12.02.2024,WERK_HAM,MAT-10023,Dieselkraftstoff,275.0,Liter,CC-2003,Tankfuellung LKW
