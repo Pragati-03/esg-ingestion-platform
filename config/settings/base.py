@@ -1,7 +1,7 @@
 INSTALLED_APPS = [
     "django.contrib.admin",
     "django.contrib.auth",
-    "django.contrib.contenttypes",  # needed for AuditLog's GenericForeignKey
+    "django.contrib.contenttypes",
     "django.contrib.sessions",
     "django.contrib.messages",
     "django.contrib.staticfiles",
@@ -10,8 +10,8 @@ INSTALLED_APPS = [
     "rest_framework",
 
     # Your apps
-    "apps.tenants",
-    "apps.ingestion",
-    "apps.emissions",
-    "apps.audit",
+    "tenants",
+    "ingestion",
+    "emissions",
+    "audit",
 ]

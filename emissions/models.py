@@ -157,11 +157,11 @@ class EmissionRecord(models.Model):
         ]
         constraints = [
             models.CheckConstraint(
-                check=models.Q(co2e_kg__gte=0),
+                condition=models.Q(co2e_kg__gte=0),
                 name="co2e_non_negative",
             ),
             models.CheckConstraint(
-                check=models.Q(scope__in=[1, 2, 3]),
+                condition=models.Q(scope__in=[1, 2, 3]),
                 name="valid_ghg_scope",
             ),
         ]
