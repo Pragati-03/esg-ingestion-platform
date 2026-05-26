@@ -32,9 +32,9 @@ from datetime import datetime, timezone
 
 from django.db import transaction
 
-from apps.ingestion.models import DataSource, IngestionStatus, RawRecord
-from apps.emissions.models import EmissionRecord, ApprovalStatus, FlagType
-from apps.audit.models import AuditLog, EventType
+from ingestion.models import DataSource, IngestionStatus, RawRecord
+from emissions.models import EmissionRecord, ApprovalStatus
+from audit.models import AuditLog, EventType
 from .parsers.sap_fuel import SAPFuelParser
 from .parsers.base import ParsedRow, FlaggedRow
 
