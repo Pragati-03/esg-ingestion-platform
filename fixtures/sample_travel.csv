@@ -1,0 +1,18 @@
+expense_id,employee_id,department,travel_date,travel_type,origin,destination,distance_km,distance_unit,nights,transport_class,vendor,cost_gbp,notes
+EXP-10001,EMP-042,Engineering,15/01/2024,flight,LHR,MUC,,,,economy,Lufthansa,320.50,Team offsite Munich
+EXP-10002,EMP-042,Engineering,18/01/2024,flight,MUC,LHR,,,,economy,Lufthansa,298.00,Return
+EXP-10003,EMP-042,Engineering,15/01/2024,hotel,,Munich,,,3,,Marriott,450.00,3 nights offsite
+EXP-10004,EMP-105,Sales,22/01/2024,flight,LHR,JFK,,,,business,British Airways,1850.00,Client meeting NYC
+EXP-10005,EMP-105,Sales,26/01/2024,flight,JFK,LHR,,,,business,British Airways,1920.00,Return NYC
+EXP-10006,EMP-105,Sales,22/01/2024,hotel,,New York,,,4,,Hilton,2100.00,4 nights client
+EXP-10007,EMP-201,Operations,05/02/2024,rail,London,Birmingham,188,km,,,Avanti,85.00,Supplier visit
+EXP-10008,EMP-201,Operations,05/02/2024,taxi,Birmingham,,12,km,,,Uber,18.50,Airport transfer
+EXP-10009,EMP-310,HR,12/02/2024,flight,LHR,DXB,,,,business,Emirates,2100.00,HR conference Dubai
+EXP-10010,EMP-310,HR,15/02/2024,flight,DXB,LHR,,,,business,Emirates,2050.00,Return Dubai
+EXP-10011,EMP-087,Finance,20/02/2024,flight,LHR,CDG,,,,economy,Air France,210.00,Paris audit
+EXP-10012,EMP-087,Finance,21/02/2024,flight,CDG,LHR,,,,economy,Air France,195.00,Return Paris
+EXP-10013,EMP-087,Finance,20/02/2024,hotel,,Paris,,,1,,Ibis,180.00,1 night Paris
+EXP-10014,EMP-420,Engineering,28/02/2024,flight,LHR,SYD,,,,economy,Qantas,980.00,Conference Sydney
+EXP-10015,EMP-201,Operations,10/02/2024,taxi,London,,999,km,,,Uber,35.00,Suspiciously long taxi
+EXP-10016,EMP-055,Marketing,14/02/2024,flight,LHR,LHR,,,,economy,BA,50.00,Same origin destination
+EXP-10017,EMP-310,HR,01/01/2024,flight,LHR,DXB,,,,first,Emirates,8500.00,First class flight
