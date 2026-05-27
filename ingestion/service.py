@@ -273,7 +273,7 @@ def _extract_date_best_effort(raw_data: dict):
     Returns today's date as fallback — the flag_reason explains the real problem.
     """
     from datetime import date
-    from apps.ingestion.parsers.sap_constants import DATE_FORMATS
+    from ingestion.parsers.sap_constants import DATE_FORMATS
 
     for key in ("Buchungsdatum", "activity_date", "datum", "Datum"):
         value = raw_data.get(key, "")
