@@ -6,3 +6,9 @@ body {
   font-family: 'DM Sans', system-ui, sans-serif;
   -webkit-font-smoothing: antialiased;
 }
+
+.dark body,
+.dark #root {
+  background-color: rgb(2 6 23);
+  color: rgb(241 245 249);
+}
